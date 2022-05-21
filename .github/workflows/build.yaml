@@ -50,4 +50,3 @@ jobs:
         heroku container:login
         heroku stack:set container --app ${APP_NAME}
         heroku container:release web --app ${APP_NAME}
-
